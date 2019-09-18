@@ -16,7 +16,7 @@ Se rendre dans le dossier `bin` dans le répertoire Keycloak:
 
 Lancez le script ci dessous. Vous pouvez modifier le login et le mot de passe si vous le souhaitez mais tâcher de vous en souvenir. 
 
-`#./add-user-keycloak.sh -r master -u poza-admin -p nePasOublier`{{execute}}
+`./add-user-keycloak.sh -r master -u poza-admin -p nePasOublier`{{execute}}
 
 
 ## Demarrer le serveur
