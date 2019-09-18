@@ -10,13 +10,14 @@ Une fois l'archive recuperer, desarchivons la:
 
 ## Creation du compte administrateur principal
 
-Se rendre dans le dossier `bin` dans le repertoire Keycloak:
+Se rendre dans le dossier `bin` dans le répertoire Keycloak:
 
-`cd k4.8.3.Final/bin`{{execute}}
+`cd keycloak-4.8.3.Final/bin`{{execute}}
 
-Lancez le script: 
+Lancez le script ci dessous. Vous pouvez modifier le login et le mot de passe si vous le souhaitez mais tâcher de vous en souvenir. 
 
-`./add-user-keycloak.sh -r master -u poza-admin -p nePasOublier`{{execute}}
+`#./add-user-keycloak.sh -r master -u poza-admin -p nePasOublier`{{execute}}
+
 
 ## Demarrer le serveur
 
