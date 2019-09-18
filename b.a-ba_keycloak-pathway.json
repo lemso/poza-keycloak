@@ -1,5 +1,10 @@
 {
   "title": "Le B.A-BA de Keycloak",
-  "description": "Apprendre a installer et configurer Keycloak rapidement",
-  "courses": []
+  "description": "Poza spécial Keycloak pour apprendre à installer keycloak, créer un realm, des groupes... Connecter une app java,...",
+  "courses": [
+    {
+      "course_id": "configure-keycloak",
+      "title": "Configure Keycloak",
+      "description": "Set up your first Realm, Role and User."
+    }]
 }
