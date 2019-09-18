@@ -11,19 +11,19 @@
     },
     {
       "title": "Creer un realm",
-      "text": "step1-creereRealm.md"
+      "text": "step1.md"
     },
     {
       "title": "Creer un role pour le realm",
-      "text": "step2-creerRole.md"
+      "text": "step2.md"
     },
     {
       "title": "Creer un group pour le realm",
-      "text": "step3-creerGroupe.md"
+      "text": "step3.md"
     },
     {
       "title": "Creer un utilisateur",
-      "text": "step4-creerUtilisateur.md"
+      "text": "step4.md"
     }],
     "intro": {
       "text": "intro.md"
