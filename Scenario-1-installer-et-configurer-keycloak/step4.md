@@ -1,4 +1,4 @@
-Competons notree configuration en creant un utilisateur a notre realm.
+Completons notree configuration en creant un utilisateur a notre realm.
 
 Dans le menu de gauche, clickez sur `Users`. Ainsi vous accedez a la liste des utilisateurs. En haut a gauche du tableau (again ;-)) il y a un bouton `Add user`. Clickez sur le bouton.
 

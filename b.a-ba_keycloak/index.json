@@ -1,0 +1,45 @@
+{
+  "title": "B.A-BA de Keycloak",
+  "description": "Installer et configurer votre premier Realm",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [{
+      "title": "Installer Keycloak",
+      "text": "setup.md",
+      "courseData": "set-env.sh"
+    },
+    {
+      "title": "Creer un realm",
+      "text": "step1.md"
+    },
+    {
+      "title": "Creer un role pour le realm",
+      "text": "step2.md"
+    },
+    {
+      "title": "Creer un group pour le realm",
+      "text": "step3.md"
+    },
+    {
+      "title": "Creer un utilisateur",
+      "text": "step4.md"
+    }],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Admin Console", "port": 8443}],
+        "uilayout": "terminal-iframe",
+        "hideintro": false,
+        "hidefinish": false
+},
+    "backend": {
+        "imageid": "centos"
+    }
+}
