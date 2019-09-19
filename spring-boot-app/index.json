@@ -41,7 +41,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "KC Console", "port": 8443},{"name": "Application", "port": 8080}],
+    "dashboards": [{"name": "KC Console", "port": 8443},{"name": "Application Spring Boot", "port": 8081}],
     "uilayout": "terminal-iframe",
     "hideintro": true,
     "hidefinish": false
