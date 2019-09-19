@@ -3,7 +3,7 @@ apt-get update && apt-get install --assume-yes unzip jq
 mkdir /home/scrapbook/tutorial/application && cd /home/scrapbook/tutorial/application
 
 # Clone java repo
-git clone https://github.com/lemso/spring-boot-keycloak.git
+git clone https://github.com/lemso/poza-keycloak-java-spring-boot-app.git
 
 # Download Keycloak
 curl https://downloads.jboss.org/keycloak/4.8.3.Final/keycloak-4.8.3.Final.zip --output keycloak-4.8.3.Final.zip
