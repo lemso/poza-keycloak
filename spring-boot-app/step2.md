@@ -2,15 +2,15 @@ Ici on va lancer l'application spring boot dans l'état actuel
 
 ## Lancer l'application Spring Boot
 
-Se rendre dans le dossier `application/poza-keycloak-java-spring-boot-app`
-`cd application/poza-keycloak-java-spring-boot-app`{{execute}}
+Se rendre dans le dossier `/home/scrapbook/tutorial/application/poza-keycloak-java-spring-boot-app` si vous n'y êtes pas déjà
+`cd /home/scrapbook/tutorial/application/poza-keycloak-java-spring-boot-app`{{execute}}
 
 Lancer la commande `mvn spring-boot:run`{{execute}}
 
 
 ## Vérifions que l'appli tourne bien !
 
-Se rendre dans l'onglet `Application Spring Boot` en haut de la page ou cliquer sur le lien suivant :
+Se rendre dans l'onglet `Spring Boot App` en haut de la page ou cliquer sur le lien suivant :
  https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/
 
 

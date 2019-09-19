@@ -22,5 +22,5 @@ ATTENTION, Ne pas oublien de faire le `Mapping user to role`
 
 ## Ajout d'un utilisateur
 
-Veuillez ajouter l'utilisateur de votre chois et n'oublie rpas de lui affecter le groupe créer ci-dessus
+Veuillez ajouter l'utilisateur de votre choix et n'oubliez pas de lui affecter le groupe créer ci-dessus !!
 
