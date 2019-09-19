@@ -43,7 +43,7 @@
     "showdashboard": true,
     "dashboards": [{"name": "KC Console", "port": 8443},{"name": "Application", "port": 8080}],
     "uilayout": "terminal-iframe",
-    "hideintro": yes,
+    "hideintro": true,
     "hidefinish": false
   },
   "backend": {
