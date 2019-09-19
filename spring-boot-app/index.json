@@ -35,7 +35,7 @@
       "text": "finish.md"
     }, "assets": {
       "client": [
-          {"file": "katacoda.json", "target": "/root"}
+          {"file": "katacoda.json", "target": "/home/scrapbook/tutorial"}
         ]
     }
   },

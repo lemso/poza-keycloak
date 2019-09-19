@@ -1,6 +1,6 @@
 {
-  "id" : "katacoda",
-  "realm" : "katacoda",
+  "id" : "poza",
+  "realm" : "poza",
   "notBefore" : 0,
   "revokeRefreshToken" : false,
   "refreshTokenMaxReuse" : 0,
@@ -42,7 +42,7 @@
       "name" : "user",
       "composite" : false,
       "clientRole" : false,
-      "containerId" : "katacoda",
+      "containerId" : "poza",
       "attributes" : { }
     }, {
       "id" : "e64c14e9-43a7-4938-a630-1c64ec741565",
@@ -50,7 +50,7 @@
       "description" : "${role_offline-access}",
       "composite" : false,
       "clientRole" : false,
-      "containerId" : "katacoda",
+      "containerId" : "poza",
       "attributes" : { }
     }, {
       "id" : "96a57daf-e53d-43a4-b6b8-993d0f8958de",
@@ -58,11 +58,11 @@
       "description" : "${role_uma_authorization}",
       "composite" : false,
       "clientRole" : false,
-      "containerId" : "katacoda",
+      "containerId" : "poza",
       "attributes" : { }
     } ],
     "client" : {
-      "dummy" : [ ],
+      "pozaSpringBootApp" : [ ],
       "realm-management" : [ {
         "id" : "9c30d1ee-67a1-466f-860a-bc6d6ae87d10",
         "name" : "query-clients",
@@ -320,13 +320,13 @@
     "id" : "a5658a2a-4c95-4d75-ab1e-d1944de90c5c",
     "clientId" : "account",
     "name" : "${client_account}",
-    "baseUrl" : "/auth/realms/katacoda/account",
+    "baseUrl" : "/auth/realms/poza/account",
     "surrogateAuthRequired" : false,
     "enabled" : true,
     "clientAuthenticatorType" : "client-secret",
     "secret" : "8dcb7192-a762-4e49-9f24-45913df4c336",
     "defaultRoles" : [ "manage-account", "view-profile" ],
-    "redirectUris" : [ "/auth/realms/katacoda/account/*" ],
+    "redirectUris" : [ "/auth/realms/poza/account/*" ],
     "webOrigins" : [ ],
     "notBefore" : 0,
     "bearerOnly" : false,
@@ -398,7 +398,7 @@
     "optionalClientScopes" : [ "address", "phone", "offline_access" ]
   }, {
     "id" : "1fd5035f-d26d-4d83-82b1-79743bbf4ddd",
-    "clientId" : "dummy",
+    "clientId" : "pozaSpringBootApp",
     "surrogateAuthRequired" : false,
     "enabled" : true,
     "clientAuthenticatorType" : "client-secret",
@@ -465,12 +465,12 @@
     "id" : "9a14650c-5da4-453c-8c3a-869c19e9d82f",
     "clientId" : "security-admin-console",
     "name" : "${client_security-admin-console}",
-    "baseUrl" : "/auth/admin/katacoda/console/index.html",
+    "baseUrl" : "/auth/admin/poza/console/index.html",
     "surrogateAuthRequired" : false,
     "enabled" : true,
     "clientAuthenticatorType" : "client-secret",
     "secret" : "cbbbb8aa-1a75-444b-bf9c-c3cb9610b41a",
-    "redirectUris" : [ "/auth/admin/katacoda/console/*" ],
+    "redirectUris" : [ "/auth/admin/poza/console/*" ],
     "webOrigins" : [ ],
     "notBefore" : 0,
     "bearerOnly" : false,
