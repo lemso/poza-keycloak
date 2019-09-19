@@ -2,19 +2,19 @@ apt-get update && apt-get install --assume-yes unzip jq
 
 APPS_DIR=/home/scrapbook/tutorial/applications
 
-mkdir /${APPS_DIR} && cd ${APPS_DIR}
+mkdir ${APPS_DIR} && cd ${APPS_DIR}
 
 # Clone java repo
-git clone https://github.com/lemso/poza-keycloak-java-spring-boot-app.git
+ cd ${APPS_DIR} && git clone https://github.com/lemso/poza-keycloak-java-spring-boot-app.git
 
 
 # Download Keycloak
-curl https://downloads.jboss.org/keycloak/4.8.3.Final/keycloak-4.8.3.Final.zip --output keycloak-4.8.3.Final.zip
+ cd ${APPS_DIR} && curl https://downloads.jboss.org/keycloak/4.8.3.Final/keycloak-4.8.3.Final.zip --output keycloak-4.8.3.Final.zip
 
 # install keycloak
-unzip keycloak-4.8.3.Final.zip
+ cd ${APPS_DIR} && unzip keycloak-4.8.3.Final.zip
 
-cd keycloak-4.8.3.Final/bin
+cd  cd ${APPS_DIR}/keycloak-4.8.3.Final/bin
 ./add-user-keycloak.sh -r master -u admin -p admin
 
 # Run keycloak and import realm
