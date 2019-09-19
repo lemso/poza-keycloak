@@ -35,7 +35,8 @@
       "text": "finish.md"
     }, "assets": {
       "client": [
-          {"file": "katacoda.json", "target": "/home/scrapbook/tutorial"}
+          {"file": "katacoda.json", "target": "/home/scrapbook/tutorial"},
+          {"file": "spring-boot-keycloak/", "target": "/home/scrapbook/tutorial"}
         ]
     }
   },
