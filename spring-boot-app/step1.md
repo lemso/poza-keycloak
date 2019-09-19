@@ -8,7 +8,7 @@ Ce scénario va vous permettre d'apprendre a connectéer une application spring 
 ## Configuration et vérification avant de se lancer
 
 Récupérons la branche `step1-simple-app`
-`cd application/poza-keycloak-java-spring-boot-app && git checkout step1-simple-app`{{execute}}
+`cd applications/poza-keycloak-java-spring-boot-app && git checkout step1-simple-app`{{execute}}
 
 ## vérification que tout compile bien
 `mvn clean install`{{execute}}

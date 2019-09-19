@@ -2,8 +2,8 @@ Ici on va lancer l'application spring boot dans l'état actuel
 
 ## Lancer l'application Spring Boot
 
-Se rendre dans le dossier `/home/scrapbook/tutorial/application/poza-keycloak-java-spring-boot-app` si vous n'y êtes pas déjà
-`cd /home/scrapbook/tutorial/application/poza-keycloak-java-spring-boot-app`{{execute}}
+Se rendre dans le dossier `/home/scrapbook/tutorial/applications/poza-keycloak-java-spring-boot-app` si vous n'y êtes pas déjà
+`cd /home/scrapbook/tutorial/applications/poza-keycloak-java-spring-boot-app`{{execute}}
 
 Lancer la commande `mvn spring-boot:run`{{execute}}
 
