@@ -14,13 +14,22 @@ Le rôle à ajouter est `manager`
 
 ## Ajout du groupe
 
-Le rôle à ajouter est `manager`
+Le groupe à ajouter est `groupe-manager`
 
 Référer vous au tuto 1 si besoin
 
-ATTENTION, Ne pas oublien de faire le `Mapping user to role`
+ATTENTION, Ne pas oublier de faire le `Mapping user to role`
 
 ## Ajout d'un utilisateur
 
+
 Veuillez ajouter l'utilisateur de votre choix et n'oubliez pas de lui affecter le groupe créer ci-dessus !!
+
+Vous pouvez utiliser l'appli front de base de keycloak `account`
+
+ `https://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com//auth/realms/poza/account`
+
+ Pensez à autoriser la création de compte : `Realm Settings > Login > User Registration` 
+
+ Si vous ajouter l'utilisateur par l'appi front, n'oubliez pas de parametrer un groupe par défaut pour le realm `Groups > Default Groups`
 
