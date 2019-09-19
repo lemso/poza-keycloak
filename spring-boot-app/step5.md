@@ -5,15 +5,42 @@ Il nous reste à configurer notre application spring-boot
 
 # Les dépendances Maven
 
+Afin de sécuriser notre petite application Spring Boot en utilsant notre ROYAUME créer dans Keycloak, nous aurions besoin des deux dépendances : 
 
-`\<dependency\>'
-    <groupId>org.keycloak</groupId>
-    <artifactId>keycloak-spring-boot-starter</artifactId>
-    <version>${keycloak.version}</version>
-</dependency>
+le starter spring boot 
 
-<dependency>
-    <groupId>org.keycloak</groupId>
-    <artifactId>keycloak-spring-boot-adapter</artifactId>
-    <version>${keycloak.version}</version>
-</dependency>`
+l’adapter keycloak
+
+Pour les voir :
+`cat resources/keycloak-maven-dependency.xml`{{execute}}
+
+# Non afficionados de java !!
+
+Les dépendances sont a ajouter dans le fichier pom.xml de notre application
+
+
+Il nous faut aussi ajouter un peu de configuration quand même.
+
+
+# La configuration
+Cette configuration se fait en général par un fichier issue de keycloak : `keycloak.json`
+
+Dans le cas de l'appli spring boot, nous allons mettre la configuration dans le fichier de conf `application.properties`
+
+`keycloak.auth-server-url=http://localhost:8080/auth
+keycloak.realm=spring-boot
+keycloak.public-client=true
+keycloak.resource=products-app`
+
+# La configuration de la sécurité
+
+Pour configurer la partie sécurité, il suffit d’ajouter les properties suivantes dans applications.properties et c’est Spring qui va assigner login-method à Keycloak et il va configurer les contraintes de sécurité au moment du démarrage de l’application.
+
+
+`keycloak.security-constraints[0].authRoles[0]=manager
+keycloak.security-constraints[0].securityCollections[0].patterns[0]=/products/*`
+
+
+# ACTION
+
+Il ne vous reste plus qu'à relancer l'application spring boot
