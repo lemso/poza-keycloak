@@ -14,7 +14,7 @@ mkdir ${APPS_DIR} && cd ${APPS_DIR}
 # install keycloak
  cd ${APPS_DIR} && unzip keycloak-4.8.3.Final.zip
 
-cd  cd ${APPS_DIR}/keycloak-4.8.3.Final/bin
+cd ${APPS_DIR}/keycloak-4.8.3.Final/bin
 ./add-user-keycloak.sh -r master -u admin -p admin
 
 # Run keycloak and import realm
