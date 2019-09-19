@@ -1,8 +1,10 @@
 
+cd /root/application
 
 curl https://downloads.jboss.org/keycloak/4.8.3.Final/keycloak-4.8.3.Final.zip --output keycloak-4.8.3.Final.zip
-yum install -y unzip
-yum install -y jq
+apt-get update
+apt-get install --assume-yes unzip jq
+
 unzip keycloak-4.8.3.Final.zip
 cd keycloak-4.8.3.Final/bin
 ./add-user-keycloak.sh -r master -u admin -p admin

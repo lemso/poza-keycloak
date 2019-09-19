@@ -33,10 +33,19 @@
     },
     "finish": {
       "text": "finish.md"
+    }, "assets": {
+      "client": [
+          {"file": "katacoda.json", "target": "/root"}
+        ]
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "showdashboard": true,
+    "dashboards": [{"name": "KC Console", "port": 8443},{"name": "Application", "port": 8080}],
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/application",
+    "hideintro": false,
+    "hidefinish": false
   },
   "backend": {
     "imageid": "java",
