@@ -2,7 +2,7 @@ apt-get update && apt-get install --assume-yes unzip jq
 
 APPS_DIR=/home/scrapbook/tutorial/applications
 
-mkdir /home/scrapbook/tutorial/applications && cd ${APPS_DIR}
+mkdir /${APPS_DIR} && cd ${APPS_DIR}
 
 # Clone java repo
 git clone https://github.com/lemso/poza-keycloak-java-spring-boot-app.git
