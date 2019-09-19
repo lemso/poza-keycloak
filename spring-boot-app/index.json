@@ -37,7 +37,7 @@
       "client": [
           {"file": "poza-realm.json", "target": "/home/scrapbook/tutorial/applications"},
           {"file": "keycloak-maven-dependency.xml", "target": "/home/scrapbook/tutorial/applications/resources"},
-          {"file": "bashrc", "target": "/home/scrapbook/.bashrc"}
+          {"file": ".bashrc", "target": "/home/scrapbook/"}
         ]
     }
   },
