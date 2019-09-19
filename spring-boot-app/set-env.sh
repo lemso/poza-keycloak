@@ -7,13 +7,6 @@ mkdir /home/scrapbook/tutorial/application && cd ${APPS_DIR}
 # Clone java repo
 git clone https://github.com/lemso/poza-keycloak-java-spring-boot-app.git
 
-cd poza-keycloak-java-spring-boot-app
-
-git checkout step1-simple-app
-
-cd ${APPS_DIR}
-
-git checkout  step1-simple-app
 
 # Download Keycloak
 curl https://downloads.jboss.org/keycloak/4.8.3.Final/keycloak-4.8.3.Final.zip --output keycloak-4.8.3.Final.zip
