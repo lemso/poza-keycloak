@@ -42,9 +42,8 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "KC Console", "port": 8443},{"name": "Application", "port": 8080}],
-    "uilayout": "editor-terminal",
-    "uieditorpath": "/root/application",
-    "hideintro": false,
+    "uilayout": "terminal-iframe",
+    "hideintro": yes,
     "hidefinish": false
   },
   "backend": {
