@@ -19,7 +19,7 @@ Pour les voir :
 Les dépendances sont a ajouter dans le fichier pom.xml de notre application.
 Ce fichier se trouve à la racine du dossier de notre application
 
-`cd /home/scrapbook/tutorial/applications/poza-keycloak-java-spring-boot-app  && ls -al`{{execute}}
+`cd /home/scrapbook/tutorial/applications/poza-keycloak-java-spring-boot-app  && tree -L 1 .`{{execute}}
 
 
 Il nous faut aussi ajouter un peu de configuration quand même.
