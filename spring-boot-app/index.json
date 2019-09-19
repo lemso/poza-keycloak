@@ -8,6 +8,8 @@
       {
         "title": "Step 1",
         "text": "step1.md"
+        "courseData": "set-env.sh",
+        "code": "env-init.sh"
       },
       {
         "title": "Step 2",
