@@ -36,7 +36,7 @@
     }, "assets": {
       "client": [
           {"file": "poza-realm.json", "target": "/home/scrapbook/tutorial"},
-          {"file": "keycloak-maven-dependency.xml", "target": "/home/scrapbook/tutorial/applications/resource}
+          {"file": "keycloak-maven-dependency.xml", "target": "/home/scrapbook/tutorial/applications/resource"}
         ]
     }
   },
