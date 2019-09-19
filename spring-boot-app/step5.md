@@ -33,7 +33,7 @@ Dans le cas de l'appli spring boot, nous allons mettre la configuration dans le 
 
 `cd /home/scrapbook/tutorial/applications/poza-keycloak-java-spring-boot-app  && tree src/main/resources/`{{execute}}
 
-`keycloak.auth-server-url=http://localhost:8080/auth
+`keycloak.auth-server-url=https://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com/
 keycloak.realm=spring-boot
 keycloak.public-client=true
 keycloak.resource=products-app`
