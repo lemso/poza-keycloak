@@ -1,5 +1,3 @@
-source /home/scrapbook/.bashrc
-
 apt-get update && apt-get install --assume-yes unzip jq
 
 APPS_DIR=/home/scrapbook/tutorial/applications

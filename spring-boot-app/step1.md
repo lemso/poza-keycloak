@@ -6,6 +6,9 @@ Ce scénario va vous permettre d'apprendre a connectéer une application spring 
 
 
 ## Configuration et vérification avant de se lancer
+Commençons par sourcer un fichier bashrc pour nous aider à y voir plus clair
+
+`source /home/scrapbook/.bashrc`{{execute}}
 
 Récupérons la branche `step1-simple-app`
 `cd applications/poza-keycloak-java-spring-boot-app && git checkout step1-simple-app`{{execute}}
